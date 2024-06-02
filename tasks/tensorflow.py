@@ -4,8 +4,8 @@ from faasmtools.build import (
     WASM_CXXFLAGS,
     WASM_HOST,
     WASM_LDFLAGS,
-    WASM_HEADER_INSTALL,
-    WASM_LIB_INSTALL,
+    WASM_HEADER_INSTALL,  # /usr/local/faasm/llvm-sysroot/include
+    WASM_LIB_INSTALL,  # /usr/local/faasm/llvm-sysroot/lib/wasm32-wasi
 )
 from invoke import task
 from os import cpu_count
